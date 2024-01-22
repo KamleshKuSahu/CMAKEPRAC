@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests
+# Install script for directory: /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/GTEST/cmake_install.cmake")
+  # Include the install script for each subdirectory.
+  include("/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/GTEST/googlemock/cmake_install.cmake")
+
 endif()
 

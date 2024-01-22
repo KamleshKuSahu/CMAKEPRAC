@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/src -isystem /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/googletest/googletest/include -isystem /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/googletest/googletest
+CXX_INCLUDES = -I/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/src -isystem /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include -isystem /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest
 
 CXX_FLAGSarm64 = -std=gnu++14 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
 

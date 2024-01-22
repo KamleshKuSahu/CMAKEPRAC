@@ -1,5 +1,5 @@
-tests/CMakeFiles/b.dir/test1.cpp.o: \
-  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/test1.cpp \
+tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/src/gmock_main.cc \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
@@ -369,8 +369,6 @@ tests/CMakeFiles/b.dir/test1.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstring \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_errno_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/typeinfo \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/atomic \
@@ -779,6 +777,8 @@ tests/CMakeFiles/b.dir/test1.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_nlink_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_useconds_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_errno_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_def.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_setsize.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_fd_set.h \
@@ -791,13 +791,12 @@ tests/CMakeFiles/b.dir/test1.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cstdarg \
-  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/src/MMMath.h \
-  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/set \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tree \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/sstream \
-  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-assertion-result.h \
-  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-message.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock-actions.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/internal/gmock-internal-utils.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/internal/gmock-port.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/assert.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/internal/custom/gmock-port.h \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/internal/gtest-port.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/ciso646 \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/sys/stat.h \
@@ -820,6 +819,12 @@ tests/CMakeFiles/b.dir/test1.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/condition_variable \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/any \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/span \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/set \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__tree \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/sstream \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-assertion-result.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-message.h \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-death-test.h \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/internal/gtest-death-test-internal.h \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-matchers.h \
@@ -838,8 +843,17 @@ tests/CMakeFiles/b.dir/test1.cpp.o: \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-param-test.h \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/internal/gtest-param-util.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/cassert \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/assert.h \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-test-part.h \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest-typed-test.h \
   /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest_pred_impl.h \
-  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest_prod.h
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest/include/gtest/gtest_prod.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/internal/gmock-pp.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock-cardinalities.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock-function-mocker.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock-spec-builders.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock-matchers.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/internal/custom/gmock-matchers.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock-more-actions.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/internal/custom/gmock-generated-actions.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock-more-matchers.h \
+  /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock/include/gmock/gmock-nice-strict.h

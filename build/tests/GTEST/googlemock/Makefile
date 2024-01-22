@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/CMakeFiles /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/CMakeFiles /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/GTEST/googlemock//CMakeFiles/progress.marks
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/GTEST/googlemock/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/GTEST/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,109 +148,94 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/GTEST/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/GTEST/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named MMATH
+# Convenience name for target.
+tests/GTEST/googlemock/CMakeFiles/gmock.dir/rule:
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/GTEST/googlemock/CMakeFiles/gmock.dir/rule
+.PHONY : tests/GTEST/googlemock/CMakeFiles/gmock.dir/rule
 
-# Build rule for target.
-MMATH: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MMATH
-.PHONY : MMATH
-
-# fast build rule for target.
-MMATH/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/MMATH.dir/build.make src/CMakeFiles/MMATH.dir/build
-.PHONY : MMATH/fast
-
-#=============================================================================
-# Target rules for targets named a
-
-# Build rule for target.
-a : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a
-.PHONY : a
-
-# fast build rule for target.
-a/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/a.dir/build.make src/CMakeFiles/a.dir/build
-.PHONY : a/fast
-
-#=============================================================================
-# Target rules for targets named b
-
-# Build rule for target.
-b : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 b
-.PHONY : b
-
-# fast build rule for target.
-b/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/b.dir/build.make tests/CMakeFiles/b.dir/build
-.PHONY : b/fast
-
-#=============================================================================
-# Target rules for targets named gmock
-
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+# Convenience name for target.
+gmock: tests/GTEST/googlemock/CMakeFiles/gmock.dir/rule
 .PHONY : gmock
 
 # fast build rule for target.
 gmock/fast:
-	$(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock.dir/build
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
-#=============================================================================
-# Target rules for targets named gmock_main
+# Convenience name for target.
+tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/rule:
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/rule
+.PHONY : tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/rule
 
-# Build rule for target.
-gmock_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+# Convenience name for target.
+gmock_main: tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/rule
 .PHONY : gmock_main
 
 # fast build rule for target.
 gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/build
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
-#=============================================================================
-# Target rules for targets named gtest
+src/gmock-all.o: src/gmock-all.cc.o
+.PHONY : src/gmock-all.o
 
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
+# target to build an object file
+src/gmock-all.cc.o:
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+.PHONY : src/gmock-all.cc.o
 
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) $(MAKESILENT) -f tests/GTEST/googletest/CMakeFiles/gtest.dir/build.make tests/GTEST/googletest/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
+src/gmock-all.i: src/gmock-all.cc.i
+.PHONY : src/gmock-all.i
 
-#=============================================================================
-# Target rules for targets named gtest_main
+# target to preprocess a source file
+src/gmock-all.cc.i:
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+.PHONY : src/gmock-all.cc.i
 
-# Build rule for target.
-gtest_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
-.PHONY : gtest_main
+src/gmock-all.s: src/gmock-all.cc.s
+.PHONY : src/gmock-all.s
 
-# fast build rule for target.
-gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f tests/GTEST/googletest/CMakeFiles/gtest_main.dir/build.make tests/GTEST/googletest/CMakeFiles/gtest_main.dir/build
-.PHONY : gtest_main/fast
+# target to generate assembly for a file
+src/gmock-all.cc.s:
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+.PHONY : src/gmock-all.cc.s
+
+src/gmock_main.o: src/gmock_main.cc.o
+.PHONY : src/gmock_main.o
+
+# target to build an object file
+src/gmock_main.cc.o:
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+.PHONY : src/gmock_main.cc.o
+
+src/gmock_main.i: src/gmock_main.cc.i
+.PHONY : src/gmock_main.i
+
+# target to preprocess a source file
+src/gmock_main.cc.i:
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+.PHONY : src/gmock_main.cc.i
+
+src/gmock_main.s: src/gmock_main.cc.s
+.PHONY : src/gmock_main.s
+
+# target to generate assembly for a file
+src/gmock_main.cc.s:
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(MAKE) $(MAKESILENT) -f tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/build.make tests/GTEST/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+.PHONY : src/gmock_main.cc.s
 
 # Help Target
 help:
@@ -264,13 +249,14 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... MMATH"
-	@echo "... a"
-	@echo "... b"
 	@echo "... gmock"
 	@echo "... gmock_main"
-	@echo "... gtest"
-	@echo "... gtest_main"
+	@echo "... src/gmock-all.o"
+	@echo "... src/gmock-all.i"
+	@echo "... src/gmock-all.s"
+	@echo "... src/gmock_main.o"
+	@echo "... src/gmock_main.i"
+	@echo "... src/gmock_main.s"
 .PHONY : help
 
 
@@ -282,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

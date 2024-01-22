@@ -288,34 +288,34 @@ GTEST_HAS_ABSL:BOOL=OFF
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/googletest/googlemock
+gmock_BINARY_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/GTEST/googlemock
 
 //Value Computed by CMake
 gmock_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/googletest/googlemock
+gmock_SOURCE_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/googletest
+googletest-distribution_BINARY_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/GTEST
 
 //Value Computed by CMake
 googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/googletest
+googletest-distribution_SOURCE_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/googletest/googletest
+gtest_BINARY_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/GTEST/googletest
 
 //Value Computed by CMake
 gtest_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/googletest/googletest
+gtest_SOURCE_DIR:STATIC=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/tests/GTEST/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -525,7 +525,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/googletest/googletest/generated
+generated_dir:INTERNAL=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests/GTEST/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples
