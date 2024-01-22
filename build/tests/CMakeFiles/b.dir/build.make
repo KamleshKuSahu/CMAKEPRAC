@@ -93,8 +93,8 @@ b_EXTERNAL_OBJECTS =
 tests/b: tests/CMakeFiles/b.dir/test1.cpp.o
 tests/b: tests/CMakeFiles/b.dir/build.make
 tests/b: /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/src/MMath.cpp
-tests/b: lib/libgtest_main.a
-tests/b: lib/libgtest.a
+tests/b: /usr/local/lib/libgtest_main.a
+tests/b: /usr/local/lib/libgtest.a
 tests/b: tests/CMakeFiles/b.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable b"
 	cd /Users/sahuk/Documents/Playground/cmakePrac/cmakePrac/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/b.dir/link.txt --verbose=$(VERBOSE)
